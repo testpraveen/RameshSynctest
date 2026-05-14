@@ -1,0 +1,20 @@
+{
+  "id": "6049d7db-07bd-46f6-b3f2-4a1347f14c6b",
+  "display_name": "clickhouse",
+  "name": "clickhouse",
+  "connector": {
+    "name": "ClickHouse",
+    "version": "latest"
+  },
+  "properties": {
+    "Protocol": "HTTP",
+    "Port": "8123"
+  },
+  "labels": [],
+  "settings": {
+    "verbosity": 0,
+    "use_cdata_callback_url": 0,
+    "metadata_refresh_interval": 3600,
+    "use_sync_proxy": 0
+  }
+}
