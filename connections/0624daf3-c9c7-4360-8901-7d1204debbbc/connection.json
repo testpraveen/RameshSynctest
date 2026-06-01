@@ -1,0 +1,23 @@
+{
+  "id": "0624daf3-c9c7-4360-8901-7d1204debbbc",
+  "display_name": "Shopify_SRC",
+  "name": "shopify_src",
+  "connector": {
+    "name": "CData Shopify",
+    "version": "latest"
+  },
+  "properties": {
+    "AuthScheme": "AccessToken",
+    "EnableShopifyPlus": "True",
+    "AccessToken": "SECURE:BdKmy6JEn+RJYuR6Vtv4KMnu127gWIn9N5y1Sfx4TGDaj1MMsmEW5r+cFK2Ew9HCGQyFIFBpRYJ6cxUMXXrhCg0c5gZ7EOzCkq3UlCnKI8TWxMSYi4Q=",
+    "ShopURL": "https://simpledevstore.myshopify.com",
+    "IncludeCustomFields": "True"
+  },
+  "labels": [],
+  "settings": {
+    "verbosity": 0,
+    "use_cdata_callback_url": 1,
+    "metadata_refresh_interval": 3600,
+    "use_sync_proxy": 1
+  }
+}

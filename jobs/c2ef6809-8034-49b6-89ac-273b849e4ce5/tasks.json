@@ -1,0 +1,16 @@
+{
+  "tasks": [
+    {
+      "id": 981795220213600257,
+      "job_id": "c2ef6809-8034-49b6-89ac-273b849e4ce5",
+      "query": "REPLICATE [AppSubscriptions] SELECT * FROM [AppSubscriptions]",
+      "is_active": true
+    },
+    {
+      "id": 981795400975519745,
+      "job_id": "c2ef6809-8034-49b6-89ac-273b849e4ce5",
+      "query": "REPLICATE [OrderCustomAttributes] SELECT * FROM [OrderCustomAttributes]",
+      "is_active": true
+    }
+  ]
+}
