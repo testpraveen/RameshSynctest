@@ -1,6 +1,6 @@
 {
   "id": "17728334-5194-4099-95e2-c30a352a8629",
-  "name": "Db2_mysql1",
+  "name": "Db2_mysql23",
   "pipeline_id": null,
   "type": 11,
   "source_connector": "db2as400src1",
