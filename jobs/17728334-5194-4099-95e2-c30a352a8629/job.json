@@ -1,13 +1,13 @@
 {
   "id": "17728334-5194-4099-95e2-c30a352a8629",
   "name": "Db2_mysql23",
-  "pipeline_id": null,
+  "pipeline_id": "f04816ce-892f-4d6a-b021-8903d755ae1d",
   "type": 11,
   "source_connector": "db2as400src1",
   "destination_connector": "mysql_dst1",
   "schedule": {
     "enabled": false,
-    "cron": ""
+    "cron": null
   },
   "alerts": {
     "send_email": false,

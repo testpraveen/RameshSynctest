@@ -1,0 +1,17 @@
+{
+  "id": "f04816ce-892f-4d6a-b021-8903d755ae1d",
+  "name": "Test",
+  "destination": "c37f3886-6025-466f-8992-2e370a4abf16",
+  "schedule": {
+    "enabled": false,
+    "cron": null
+  },
+  "properties": {},
+  "alerts": {
+    "send_email_notification": false,
+    "notify_email_subject": null,
+    "notify_email_to": null,
+    "email_error_only": false
+  },
+  "labels": []
+}
