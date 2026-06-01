@@ -1,0 +1,10 @@
+{
+  "tasks": [
+    {
+      "id": 981797311522934785,
+      "job_id": "78a719e0-902b-41ae-b8c3-a3a48a462aa9",
+      "query": "REPLICATE [SPITQT] SELECT * FROM [DAVY].[SPITQT]",
+      "is_active": true
+    }
+  ]
+}
