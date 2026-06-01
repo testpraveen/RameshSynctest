@@ -1,0 +1,10 @@
+{
+  "tasks": [
+    {
+      "id": 981890552079454209,
+      "job_id": "fc362224-7b57-4081-8361-5f27cc1ac4d7",
+      "query": "REPLICATE [account] SELECT * FROM [synctest].[account]",
+      "is_active": true
+    }
+  ]
+}
