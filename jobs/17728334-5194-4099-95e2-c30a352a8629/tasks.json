@@ -5,6 +5,12 @@
       "job_id": "17728334-5194-4099-95e2-c30a352a8629",
       "query": "REPLICATE [test].[SPITQT] ([SPCODE] string, [SPCONO] decimal, [SPITCD] string, [SPWHLO] string, PRIMARY KEY([SPCODE], [SPCONO], [SPITCD], [SPWHLO])) WITH enableparallelreadpartitioning = 'false' SELECT * FROM [DAVY1].[SPITQT]",
       "is_active": true
+    },
+    {
+      "id": 974549751234170881,
+      "job_id": "17728334-5194-4099-95e2-c30a352a8629",
+      "query": "REPLICATE [test].[SPITQT] ([SPCODE] string, [SPCONO] decimal, [SPITCD] string, [SPWHLO] string, PRIMARY KEY([SPCODE], [SPCONO], [SPITCD], [SPWHLO])) WITH enableparallelreadpartitioning = 'false' SELECT * FROM [DAVY1].[SPITQT]",
+      "is_active": true
     }
   ]
 }

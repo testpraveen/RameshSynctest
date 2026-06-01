@@ -9,7 +9,7 @@
   "properties": {
     "Server": "localhost",
     "AuthScheme": "Password",
-    "Password": "SECURE:iBwOStyrH1U+J/RLjyjA+U6ZdrwP0VP6qx1XrLF3EkR3OQSVMhrdn4hrRxmwdxenvDhUCw==",
+    "Password": "SECURE:+xTLe9OGOSNeaU/zAtSnzOFjrjXpLNhnOCBFm6E2XIv5Kr4zEt9/IPWK8VMjVioQt7lU3Q==",
     "Database": "synctest",
     "Port": "3306",
     "User": "root"

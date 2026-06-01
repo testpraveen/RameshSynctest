@@ -6,10 +6,7 @@
     "name": "ClickHouse",
     "version": "latest"
   },
-  "properties": {
-    "Protocol": "HTTP",
-    "Port": "8123"
-  },
+  "properties": {},
   "labels": [],
   "settings": {
     "verbosity": 0,
