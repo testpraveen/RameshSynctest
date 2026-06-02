@@ -1,0 +1,24 @@
+{
+  "id": "718d06b4-763d-4c0a-a60a-829bce2eaf19",
+  "display_name": "SQLSERVER_DST",
+  "name": "sqlserver_dst",
+  "connector": {
+    "name": "SQL Server",
+    "version": "latest"
+  },
+  "properties": {
+    "Server": "localhost",
+    "Database": "target",
+    "Password": "SECURE:+aWPgF+xyDt2oHauDoVNIUa44iuxo8Mxv96mEYpSnbe4inCJSnpaaDc7FlTC1VNIknS4ySSw",
+    "Port": "1433",
+    "TrustServerCertificate": "True",
+    "User": "Raam"
+  },
+  "labels": [],
+  "settings": {
+    "verbosity": 0,
+    "use_cdata_callback_url": 0,
+    "metadata_refresh_interval": 3600,
+    "use_sync_proxy": 0
+  }
+}

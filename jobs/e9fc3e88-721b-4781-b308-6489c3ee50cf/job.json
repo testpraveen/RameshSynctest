@@ -1,10 +1,10 @@
 {
-  "id": "78a719e0-902b-41ae-b8c3-a3a48a462aa9",
-  "name": "Db2i_mysql_CDC",
+  "id": "e9fc3e88-721b-4781-b308-6489c3ee50cf",
+  "name": "Mysql_sql",
   "pipeline_id": null,
-  "type": 11,
-  "source_connector": "db2as400src1",
-  "destination_connector": "mysql_dst1",
+  "type": 1,
+  "source_connector": "mysql_dst1",
+  "destination_connector": "sqlserver_dst",
   "schedule": {
     "enabled": false,
     "cron": ""
@@ -16,29 +16,29 @@
   },
   "properties": {
     "enable_parallel_processing": false,
-    "worker_pool": 1,
-    "verbosity": 2,
-    "destination_schema": "synctest",
+    "worker_pool": 2,
+    "verbosity": 5,
+    "destination_schema": "dbo",
     "automatic_job_retry": true
   },
   "replicate_options": {
     "replicate_start_date": null,
-    "replicate_interval": 0,
+    "replicate_interval": 180,
     "replicate_interval_unit": "days",
     "snapshot_size": "1000000",
     "skip_snapshot": "false",
-    "alter_schema": false,
+    "alter_schema": true,
     "drop_table": false,
     "truncate_table_data": false,
     "table_name_prefix": "",
-    "table_name_suffix": null,
-    "continue_on_error": false,
-    "deletion_behavior": "SoftDelete",
-    "insert_mode": null,
-    "auto_truncate_Strings": false,
+    "table_name_suffix": "",
+    "continue_on_error": true,
+    "deletion_behavior": "HardDelete",
+    "insert_mode": "FilePerBatch",
+    "auto_truncate_Strings": true,
     "use_gmt_datetime": false,
-    "command_timeout": 0,
-    "additional_options": ""
+    "command_timeout": 300,
+    "additional_options": "usetemptable=false"
   },
   "events": {
     "pre_job": null,
