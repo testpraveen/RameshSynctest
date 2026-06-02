@@ -1,0 +1,10 @@
+{
+  "tasks": [
+    {
+      "id": 982218461721792513,
+      "job_id": "5b1cb9eb-e38e-454b-bb4f-79e5d5eabb49",
+      "query": "REPLICATE [CLOB_TEST_TABLE] SELECT * FROM [C##SCHEMA1].[CLOB_TEST_TABLE]",
+      "is_active": true
+    }
+  ]
+}

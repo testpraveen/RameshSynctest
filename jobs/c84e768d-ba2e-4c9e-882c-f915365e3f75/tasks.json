@@ -1,0 +1,22 @@
+{
+  "tasks": [
+    {
+      "id": 982230448245706753,
+      "job_id": "c84e768d-ba2e-4c9e-882c-f915365e3f75",
+      "query": "REPLICATE [C##SCHEMA2].[Empdocbug] WITH enableparallelreadpartitioning = 'false' SELECT * FROM [C##SCHEMA1].[EMPLOYEE_DOCUMENTS]",
+      "is_active": true
+    },
+    {
+      "id": 982230585982455809,
+      "job_id": "c84e768d-ba2e-4c9e-882c-f915365e3f75",
+      "query": "REPLICATE [C##SCHEMA2].[emopbug] WITH enableparallelreadpartitioning = 'false' SELECT * FROM [C##SCHEMA1].[EMPLOYEES]",
+      "is_active": true
+    },
+    {
+      "id": 982230831026278401,
+      "job_id": "c84e768d-ba2e-4c9e-882c-f915365e3f75",
+      "query": "REPLICATE [C##SCHEMA2].[emog] WITH enableparallelreadpartitioning = 'false' SELECT * FROM [C##SCHEMA1].[EMPLOYEES_PK]",
+      "is_active": true
+    }
+  ]
+}
